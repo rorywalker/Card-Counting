@@ -1,0 +1,44 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Card Counting</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <h1 class="title"> Card Counting </h1>
+    <div>
+        <button id="btnPlay" class="btn btn-inverse btn-lg play">	  
+		    <span><strong>PLAY</strong></span>
+        </button>
+    </div>
+    <div>
+        <button id="btnShowCount" class="btn btn-inverse hidden showCount">	  
+		    <span><strong>SHOW COUNT</strong></span>
+        </button>
+    </div>
+    <div id="cardDisplay" class="cardDisplay hidden">                 
+            <img id="card1" src="img/back.png" width="150" height="220">
+    </div>
+    <div>
+        <button id="btnNextCard" class="btn btn-inverse hidden nextCard">	  
+		    <span><strong>NEXT CARD</strong></span>
+        </button>
+    </div>
+    <div id="countDisplay"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
+
+
